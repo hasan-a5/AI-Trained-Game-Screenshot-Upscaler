@@ -8,7 +8,7 @@ This project provides three simple ways to explore the super-resolution capabili
 
 ---
 
-## 1. Run the Demo UI (Gradio)
+## 1. Run the Demo UI
 
 This is the most user-friendly way to try the model. A simple interface will let you upload a low-res game screenshot and see the enhanced output.
 
