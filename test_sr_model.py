@@ -18,7 +18,7 @@ model.eval()
 
 
 # load a test image
-filename = os.listdir(LOW_RES_DIR)[10]
+filename = os.listdir(LOW_RES_DIR)[150]
 
 lr_image = Image.open(os.path.join(LOW_RES_DIR, filename)).convert("RGB")
 hr_image = Image.open(os.path.join(HIGH_RES_DIR, filename)).convert("RGB") 

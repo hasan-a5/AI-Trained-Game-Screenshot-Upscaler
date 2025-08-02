@@ -1,5 +1,7 @@
 # How to Run the AI-Trained Game Screenshot Upscaler Project
 
+📄 ** Note: [View Full Project Report (PDF)](./📝 PROJECT_REPORT.pdf)**
+
 This project provides three simple ways to explore the super-resolution capabilities of the trained EDSR model on game screenshots. You can:
 
 1. **Run the Gradio demo locally**
