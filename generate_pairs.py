@@ -21,8 +21,8 @@ clear_folder(lr_path)
 
 # Choose a consistent crop size (MUST be divisible by 2)
 crop_size = 432 # 432x432 high-res crop
-scale = 2
-low_size = crop_size // scale # 288×288 low-res crop
+scale = 3
+low_size = crop_size // scale # low-res crop
 
 # Loop through original images and create HR/LR pairs
 for filename in os.listdir(orig_path):

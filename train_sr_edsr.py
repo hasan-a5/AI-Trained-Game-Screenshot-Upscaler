@@ -15,7 +15,7 @@ MODEL_SAVE_PATH = "models/sr_model.pth"
 EPOCHS = 350 # Number of training cycles through the dataset
 BATCH_SIZE = 4 # Number of images processed per batch
 LEARNING_RATE = 1e-4 # How fast the model learns
-UPSCALE = 2
+UPSCALE = 3
 
 # Data Augmentation
 transform = transforms.Compose([

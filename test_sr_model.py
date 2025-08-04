@@ -8,7 +8,7 @@ from train_sr_edsr import EDSR # reuse model class
 LOW_RES_DIR = "images/low_res"
 HIGH_RES_DIR = "images/high_res"
 MODEL_PATH = "models/sr_model.pth"
-UPSCALE = 2  # model was trained on 2×
+UPSCALE = 3  # model was trained on 3×
 
 # load the model
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -18,7 +18,7 @@ model.eval()
 
 
 # load a test image
-filename = os.listdir(LOW_RES_DIR)[150]
+filename = os.listdir(LOW_RES_DIR)[69]
 
 lr_image = Image.open(os.path.join(LOW_RES_DIR, filename)).convert("RGB")
 hr_image = Image.open(os.path.join(HIGH_RES_DIR, filename)).convert("RGB") 
